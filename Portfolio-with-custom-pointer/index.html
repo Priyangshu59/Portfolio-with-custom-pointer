@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RigX Studios | Digital Innovation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Space+Grotesk:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+    <canvas id="particleCanvas"></canvas>
+
+    <header>
+        <nav>
+            <div class="logo">RigX<span class="accent">.</span></div>
+            <div class="nav-links">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#portfolio">Work</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="menu-btn">
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <div class="badge">Future Digital Experience</div>
+                <h1>We Craft <span class="gradient-text">Digital Reality</span></h1>
+                <p>RigX Studios merges creative design with cutting-edge technology to build immersive web experiences that define the future.</p>
+                <div class="cta-group">
+                    <a href="#portfolio" class="btn primary">View Our Work</a>
+                    <a href="#contact" class="btn secondary">Start a Project</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="glowing-orb"></div>
+                <div class="grid-overlay"></div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title">Who We Are</h2>
+                <div class="about-grid">
+                    <div class="about-card">
+                        <h3>Innovation First</h3>
+                        <p>Pushing boundaries with every pixel and line of code.</p>
+                    </div>
+                    <div class="about-card">
+                        <h3>Performance</h3>
+                        <p>Lightning fast experiences optimized for every device.</p>
+                    </div>
+                    <div class="about-card">
+                        <h3>Unique Design</h3>
+                        <p>Standing out from the noise with bespoke aesthetics.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="services">
+            <div class="container">
+                <h2 class="section-title">Our Expertise</h2>
+                <div class="services-grid">
+                    <div class="service-item">
+                        <div class="service-icon">01</div>
+                        <h3>Web Development</h3>
+                        <p>Full-stack solutions built on modern architectures.</p>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-icon">02</div>
+                        <h3>UI/UX Design</h3>
+                        <p>User-centric interfaces that captivate and convert.</p>
+                    </div>
+                    <div class="service-item">
+                        <div class="service-icon">03</div>
+                        <h3>Brand Identity</h3>
+                        <p>Forging memorable brands for the digital age.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="portfolio">
+            <div class="container">
+                <h2 class="section-title">Selected Works</h2>
+                <div class="portfolio-grid">
+                    <div class="project-card">
+                        <div class="project-image"></div>
+                        <div class="project-info">
+                            <h3>Neon Horizon</h3>
+                            <p>Immersive 3D Experience</p>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image" style="background: linear-gradient(45deg, #2b00ff, #00f0ff)"></div>
+                        <div class="project-info">
+                            <h3>Cyber Punk</h3>
+                            <p>E-Commerce Platform</p>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image" style="background: linear-gradient(45deg, #ff0055, #ff9900)"></div>
+                        <div class="project-info">
+                            <h3>Flux</h3>
+                            <p>SaaS Dashboard</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">Let's Talk</h2>
+                <div class="contact-wrapper">
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" required placeholder=" ">
+                            <label for="name">Your Name</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" required placeholder=" ">
+                            <label for="email">Email Address</label>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" required placeholder=" "></textarea>
+                            <label for="message">Project Details</label>
+                        </div>
+                        <button type="submit" class="btn primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">RigX Studios</div>
+                <p>&copy; 2024 RigX Studios. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
